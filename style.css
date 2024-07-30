@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.bg-header{
+    background-color:darkslategrey;
+    color: #fff;
+}
+nav{
+    height: 75px;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.nav-link:link , .nav:visited{
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+.nav-link:hover, .nav-link:active{
+    color: grey;
+    background-color: darkgrey;
+    border-radius: 4px;
+}
+
+h1{
+    letter-spacing: 0.4px;
+}
+h2{
+    font-size: 44px;
+    line-height: 1.3rem;
+}
+.hero-section{
+    padding: 1.3rem 0;
+}
+.hero-section p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    letter-spacing: 0.2px;
+}
+.btn{
+    background-color: rgba(0, 128, 0, 0.337);
+    color: #fff;
+    padding: 5px 10px;
+    border: 8px 24px;
+    font-size: 16px;
+    /* transition: ease-in-out; */
+}
+.hero-image{
+    width: 100%;
+}
+.btn{
+    background-color: rgba(0, 128, 0, 0.716);
+    color: #fff;
+    padding: 5px 10px;
+    border: 8px 24px;
+    font-size: 16px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 128, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card-text{ 
+    font-size: 16px;
+    color: #777;
+}
+.how-it-works-text{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.7;
+}
+.how-it-works-title{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #175a50e2;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.testimonials{
+    padding: 5px 0;
+    background-color:  #175a50e2;
+  }
+  
+ .testimonial-card{
+    width: 50%;
+ }
+ 
+ .testimonial-text {
+    color: #1eb5a1;
+    font-size: 17px;
+ }
+ 
+ .testimonials-name{
+    color: #048E7B;
+ }
+ h3{
+    font-size: 24px;
+ }
+ 

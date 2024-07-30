@@ -128,4 +128,117 @@ h2{
  h3{
     font-size: 24px;
  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Navigation Bar */
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 2rem;
+  }
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Featured Food Items */
+  .Featured {
+    padding: 2rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  /* Deals */
+  .deals {
+    padding: 2rem;
+  }
+
+  /* How it Works */
+  .how-it-works {
+    padding: 2rem;
+  }
+  .section-how-card {
+    margin-bottom: 1rem;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    padding: 2rem;
+  }
+  .testimonial-card {
+    margin-bottom: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* Navigation Bar */
+  .navbar {
+    padding: 1.5rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 3rem;
+  }
+  .hero-image {
+    width: 80%;
+    height: auto;
+  }
+
+  /* Featured Food Items */
+  .Featured {
+    padding: 3rem;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Deals */
+  .deals {
+    padding: 3rem;
+  }
+
+  /* How it Works */
+  .how-it-works {
+    padding: 3rem;
+  }
+  .section-how-card {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    padding: 3rem;
+  }
+  .testimonial-card {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 3rem;
+  }
+}
  

@@ -128,117 +128,66 @@ h2{
  h3{
     font-size: 24px;
  }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* Navigation Bar */
-  .navbar {
-    padding: 1rem;
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
-  .nav-link {
-    font-size: 1rem;
+@media only screen and (max-width: 300px) {
+  /* Add your styles here */
+
+  /* Example: Make the text larger for better readability */
+  .text-dark {
+    font-size: 18px;
   }
 
-  /* Hero Section */
-  .hero-section {
-    padding: 2rem;
+  /* Example: Make the navigation links stack vertically */
+  .navbar-nav {
+    flex-direction: column;
   }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 5px;
+  }
+
+  /* Example: Make the hero section more compact */
+  .hero-section {
+    padding: 20px;
+  }
+
   .hero-image {
     width: 100%;
     height: auto;
   }
 
-  /* Featured Food Items */
+  /* Example: Make the featured section more compact */
   .Featured {
-    padding: 2rem;
+    padding: 20px;
   }
+
   .card {
-    margin-bottom: 1rem;
+    margin: 10px;
   }
 
-  /* Deals */
-  .deals {
-    padding: 2rem;
-  }
-
-  /* How it Works */
+  /* Example: Make the how-it-works section more compact */
   .how-it-works {
-    padding: 2rem;
+    padding: 20px;
   }
+
   .section-how-card {
-    margin-bottom: 1rem;
+    padding: 10px;
   }
 
-  /* Testimonials */
+  /* Example: Make the testimonials section more compact */
   .testimonials {
-    padding: 2rem;
-  }
-  .testimonial-card {
-    margin-bottom: 1rem;
+    padding: 20px;
   }
 
-  /* Footer */
+  .testimonial-card {
+    padding: 10px;
+  }
+
+  /* Example: Make the footer more compact */
   footer {
-    padding: 2rem;
+    padding: 10px;
   }
 }
-
-/* Small devices (portrait tablets and large phones, 768px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  /* Navigation Bar */
-  .navbar {
-    padding: 1.5rem;
-  }
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .nav-link {
-    font-size: 1.2rem;
-  }
-
-  /* Hero Section */
-  .hero-section {
-    padding: 3rem;
-  }
-  .hero-image {
-    width: 80%;
-    height: auto;
-  }
-
-  /* Featured Food Items */
-  .Featured {
-    padding: 3rem;
-  }
-  .card {
-    margin-bottom: 1.5rem;
-  }
-
-  /* Deals */
-  .deals {
-    padding: 3rem;
-  }
-
-  /* How it Works */
-  .how-it-works {
-    padding: 3rem;
-  }
-  .section-how-card {
-    margin-bottom: 1.5rem;
-  }
-
-  /* Testimonials */
-  .testimonials {
-    padding: 3rem;
-  }
-  .testimonial-card {
-    margin-bottom: 1.5rem;
-  }
-
-  /* Footer */
-  footer {
-    padding: 3rem;
-  }
-}
- 
